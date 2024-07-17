@@ -1,7 +1,7 @@
 # odin-wheres-waldo-BE
 A simple BackEnd build with NodeJS/Express with mongoDB for FE.
 
-1. create .env file, add MONGODB_URL : <your mongoDB connection string>
+1. create .env file, add MONGODB_URL : "\<your mongoDB connection string\>"
 2. npm run serverstart
 
 ### -------------
