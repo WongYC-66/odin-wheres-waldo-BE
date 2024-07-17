@@ -1,6 +1,9 @@
 # odin-wheres-waldo-BE
 A simple BackEnd build with NodeJS/Express with mongoDB for FE.
 
+1. create .env file, add MONGODB_URL : <your mongoDB connection string>
+2. npm run serverstart
+
 ### -------------
 FE (built with react/vite/bootstrap) : https://wongyc-66.github.io/odin-wheres-waldo-FE/
 FE (source) :  https://github.com/WongYC-66/odin-wheres-waldo-FE
