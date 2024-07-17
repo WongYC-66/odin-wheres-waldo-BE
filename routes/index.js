@@ -9,7 +9,7 @@ const User = require('../model/user')
 //    output : true/ false
 
 // /v1/score_board_get
-//    output : [{username, score}, ...]
+//    output : [{username1, score1}, ...]
 
 // /v1/score_board_post
 //    input : user, time
