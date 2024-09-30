@@ -1,16 +1,32 @@
-# odin-wheres-waldo-BE
-A simple BackEnd build with NodeJS/Express with mongoDB for FE.
+# odin-wheres-waldo (Game)
+A simple game of  photo tagging app. Like Where's Waldo, user is given a large image which contains several elements to find. Lastly, user add name to leaderboard.
 
+## Live demo
+
+- FE : https://wongyc-66.github.io/odin-wheres-waldo-FE/
+- Back end : https://odin-wheres-waldo-be.adaptable.app/
+
+
+## Tech-stack
+- FE : react, vite, bootstrap
+- BE : node.js, express, mongoDB
+
+
+
+## Installation (BE)
 1. create .env file, add MONGODB_URL : "\<your mongoDB connection string\>"
 2. npm run serverstart
 
-### -------------
-FE (built with react/vite/bootstrap) : https://wongyc-66.github.io/odin-wheres-waldo-FE/
-FE (source) :  https://github.com/WongYC-66/odin-wheres-waldo-FE
+## Installation (FE)
+1. modify const API_URL = "< your backend root URL>", at /src/api_url.js, 
+2. npm run dev
 
-BE (built with nodeJS/express/mongoDB) : https://odin-wheres-waldo-be.adaptable.app/
-BE (source) : https://github.com/WongYC-66/odin-wheres-waldo-BE
+## Source
 
+- Front end :  https://github.com/WongYC-66/odin-wheres-waldo-FE
+- Back end : https://github.com/WongYC-66/odin-wheres-waldo-BE
+
+#
 BE APIs :
 1.  /v1/success_guess_post 
     - input : val, x-coor, y-coor
