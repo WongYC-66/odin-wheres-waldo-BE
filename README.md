@@ -1,6 +1,8 @@
 # odin-wheres-waldo (Game)
 A simple game of  photo tagging app. Like Where's Waldo, user is given a large image which contains several elements to find. Lastly, user add name to leaderboard.
 
+![photo](wheres-waldo.png)
+
 ## Live demo
 
 - FE : https://wongyc-66.github.io/odin-wheres-waldo-FE/
